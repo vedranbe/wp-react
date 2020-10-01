@@ -15,3 +15,7 @@ Included:
 ## Version
 
 v 0.1
+
+## URL
+
+https://wp-rest-api.netlify.app/
