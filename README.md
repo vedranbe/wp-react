@@ -18,4 +18,4 @@ v 0.1
 
 ## URL
 
-https://wp-rest-api.netlify.app/
+https://codesandbox.io/s/wordpress-rest-api-and-react-forked-1c9zv
