@@ -16,6 +16,5 @@ Included:
 
 v 0.1
 
-## URL
-
-https://codesandbox.io/s/wordpress-rest-api-and-react-forked-1c9zv
+## Start
+npm start (root folder)

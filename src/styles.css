@@ -21,7 +21,7 @@ body {
  */
 .posts-wrapper {
   width: 100%;
-  max-width: 540px;
+  max-width: 840px;
   margin: 20px auto;
   padding: 0 20px;
 }
@@ -36,9 +36,11 @@ body {
   margin: 0 0 40px 0;
   padding: 0 0 18px 0;
   border-bottom: 1px solid #eeeeee;
+  width: 100%;
 }
 .posts-post img {
   max-width: 100%;
+  width: 100%;
   margin: 0;
   transition: all 0.5s ease;
   transform: scale(1.01) rotate(0deg);
@@ -127,4 +129,26 @@ body {
   padding: 0;
   margin: 5px 0 0 0;
   color: #999999;
+}
+
+/* 
+ * Fade
+ */
+.fade-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fade-in-post {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
